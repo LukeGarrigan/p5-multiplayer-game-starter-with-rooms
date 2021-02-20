@@ -8,8 +8,9 @@ class Player {
 
 
   draw() {
+    stroke(this.rgb.r, this.rgb.g, this.rgb.b);
     fill(this.rgb.r, this.rgb.g, this.rgb.b);
-    circle(this.x, this.y, 20);
+    circle(this.x, this.y, 50);
   }
 
 }
